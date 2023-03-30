@@ -1,0 +1,145 @@
+starting aggregated test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./benchmark
+Node: node0512
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.250338.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+mv: cannot stat 'ckpt_aggregation_profiling-250338.pbs02-8-8-16-03.txt': No such file or directory

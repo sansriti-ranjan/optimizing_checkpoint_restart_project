@@ -1,0 +1,433 @@
+starting original test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087231] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=32
+[node0872:1087247] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=64
+[node0872:1087260] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087270] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=32
+[node0872:1087280] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=64
+[node0872:1087290] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087300] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=32
+[node0872:1087310] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=64
+[node0872:1087320] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087330] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=32
+[node0872:1087340] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=64
+[node0872:1087350] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087360] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=32
+[node0872:1087370] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=64
+[node0872:1087380] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087390] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=32
+[node0872:1087400] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=64
+[node0872:1087410] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087420] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=32
+[node0872:1087430] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=64
+[node0872:1087440] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087450] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=32
+[node0872:1087460] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=64
+[node0872:1087470] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087480] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=32
+[node0872:1087490] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=64
+[node0872:1087500] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087510] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087520] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087530] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087540] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087550] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087560] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087570] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087581] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087591] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087601] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087611] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087621] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087631] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087641] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087651] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087661] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087671] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087681] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087691] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087701] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 0 % tolerance, NUM_FILES=8
+[node0872:1087711] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087721] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087731] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 10 % tolerance, NUM_FILES=8
+[node0872:1087741] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087751] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087761] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 8 nodes (64 procs), 20 % tolerance, NUM_FILES=8
+[node0872:1087771] FATAL: UCX library was compiled with sse42 but CPU does not support it.
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.343903.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+mv: cannot stat 'NtoM_Scalability-343903.pbs02-8-8-30-03.txt': No such file or directory

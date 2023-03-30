@@ -1,0 +1,1623 @@
+sed: can't read veloc.cfg: No such file or directory
+starting original test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[4051,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[4079,1],5]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3890,1],17]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3909,1],11]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3218,1],259]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3237,1],6]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3272,1],18]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3099,1],49]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3118,1],253]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3185,1],139]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3460,1],1]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3543,1],28]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3578,1],111]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3341,1],4]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3408,1],17]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[3427,1],7]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[694,1],4]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[729,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[748,1],231]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[575,1],309]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[587,1],3]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[926,1],19]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[929,1],63]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1012,1],4]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[774,1],318]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[808,1],3]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[891,1],18]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[142,1],55]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[209,1],193]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[228,1],282]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[55,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[90,1],19]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[109,1],49]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[432,1],175]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 0 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[450,1],297]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[277,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[312,1],30]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[331,1],39]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1694,1],19]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 10 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1697,1],300]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1780,1],3]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1543,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 16 nodes (128 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1578,1],31]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 32 nodes (256 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1661,1],218]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting original test with 40 nodes (320 procs), 20 % tolerance, NUM_FILES=procs
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1920,1],24]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[2003,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[2022,1],27]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1801,1],41]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1882,1],92]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1901,1],23]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1200,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1219,1],15]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1046,1],4]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1081,1],92]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1100,1],126]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1439,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1442,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1525,1],52]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1304,1],181]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1322,1],82]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[1382,1],6]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6793,1],11]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6876,1],63]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6895,1],234]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6706,1],44]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6725,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6760,1],13]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7099,1],100]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7118,1],44]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6929,1],52]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6948,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7031,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6298,1],60]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6317,1],164]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6399,1],132]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6146,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6227,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6246,1],37]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6537,1],159]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 0 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6620,1],117]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6639,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6450,1],28]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6469,1],4]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[6504,1],60]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 10 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7867,1],93]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 1 nodes (8 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7886,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 4 nodes (32 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7697,1],26]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 16 nodes (128 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7716,1],60]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 32 nodes (256 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[7799,1],2]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+starting aggregated test with 40 nodes (320 procs), 20 % tolerance, NUM_FILES=1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[8090,1],20]
+  Exit code:    255
+--------------------------------------------------------------------------
+0	/scratch/mikailg/persis
+done....zipping and moving files...
+mv: cannot stat '/local_scratch/pbs.245298.pbs02/logs/*': No such file or directory
+tar: Removing leading `/' from member names
+tar: /home/mikailg/ECE8730/work_dir: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+mv: cannot stat 'VELOC_comps-245298.pbs02-16-8-16-03.txt': No such file or directory
+mv: cannot stat '/home/mikailg/ECE8730/VELOC_comps*': No such file or directory

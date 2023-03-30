@@ -1,0 +1,25 @@
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+64 total processes failed to start
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=1000gb,walltime=03:00:00,ncpus=160
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=00:00:02,mem=12224kb,walltime=00:00:12,ncpus=160,cpupercent=0,vmem=630692kb
+ 
+ 
