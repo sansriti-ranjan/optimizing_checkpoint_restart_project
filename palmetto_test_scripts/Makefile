@@ -8,11 +8,11 @@ MPI_CFLAGS := -g -O3 $(OPENMPFLAG) $(G99FLAG)
 MPI_CFLAGS := -g -O3 $(OPENMPFLAG)
 MPI_CPPFLAGS := $(BASE_CPPFLAGS)
 
-VELOC_INC=/home/mikailg/VELOC/install/include/
-VELOC_LIB=/home/mikailg/VELOC/install/lib64/
+VELOC_INC=$(HOME)/VELOC/install/include/
+VELOC_LIB=$(HOME)/VELOC/install/lib64/
 
-VELOC_AG_INC=/home/mikailg/CKPT_AGGR/install/include
-VELOC_AG_LIB=/home/mikailg/CKPT_AGGR/install/lib64
+VELOC_AG_INC=$(HOME)/CKPT_AGGR/install/include
+VELOC_AG_LIB=$(HOME)/CKPT_AGGR/install/lib64
 
 all: benchmark_og heatdis_og benchmark_ag heatdis_ag omp_test omp_interleave
 
