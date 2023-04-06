@@ -1,3 +1,5 @@
-rm /scratch1/mikailg/*
-rm /local_scratch/pbs.84482.pbs02/dat/*
-rm /local_scratch/pbs.84482.pbs02/logs/*
+rm /scratch/mikailg/persis/*
+rm $TMPDIR/veloc/*
+rm $TMPDIR/logs/*
+rm /dev/shm/veloc/*
+rm /dev/shm/logs/*

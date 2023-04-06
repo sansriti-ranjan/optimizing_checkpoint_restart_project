@@ -1,0 +1,31 @@
+The Network Requirements:
+Look at how RNN's can use time-series data of the PFS in order to predict optimal C/R parameters
+in real time.
+
+Main Inputs:
+int num_threads, num_nodes -- # OpenMP Threads, # compute nodes
+double timers_per_thread, throughput_per_thread -- time series data of OpenMP benchmarks
+double failure_rate -- how long between failures of PFS
+ssize_t aggregate_problem_size, local_problem_size -- total size of checkpoint, piece of checkpoint
+string write_strategy -- file-per-proc or aggregated
+
+
+Checkpoint Interval:
+outputs: double I -- time between checkpoints in min
+inputs: Main Inputs
+
+
+Checkpoint Frequency:
+outputs: int F -- how many times to checkpoint
+input: Main Inputs, I
+
+
+Write Strategies:
+outputs: [string strategy = File-per-process or Aggregated,
+            int num_writer_threads = max_num_threads threads that wrote file within tol of peak with [1-20] OpenMP 
+                                    using aggregated openMP
+            int num_leaders = max_num_threads threads that wrote file within tol of peak with [1] OpenMP threads
+            int files_per_leader = max_num_threads threads that wrote file within tol of peak with [1-20] OpenMP threads]
+inputs: Main Inputs, I, F
+
+

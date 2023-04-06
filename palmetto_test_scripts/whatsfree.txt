@@ -1,0 +1,70 @@
+ 
+Thu Apr 06 2023 12:20:52
+ 
+TOTAL NODES: 1777  TOTAL CORES: 36508  NODES FREE: 557   NODES OFFLINE: 11   NODES RESERVED: 26
+ 
+BIGMEM nodes
+PHASE 0a   TOTAL =   3  FREE =   3  OFFLINE =   0  TYPE = Bigmem node 24 cores and 1TB RAM
+PHASE 0b   TOTAL =   4  FREE =   1  OFFLINE =   0  TYPE = Bigmem node 32 cores and 750GB RAM
+PHASE 0c   TOTAL =   1  FREE =   0  OFFLINE =   0  TYPE = Bigmem node 40 cores and 1TB RAM
+PHASE 0d   TOTAL =   2  FREE =   0  OFFLINE =   0  TYPE = Bigmem node 36 cores and 1.5TB RAM
+PHASE 0e   TOTAL =   1  FREE =   0  OFFLINE =   0  TYPE = Bigmem node 40 cores and 1.5TB RAM
+PHASE 0f   TOTAL =   3  FREE =   0  OFFLINE =   0  TYPE = Bigmem node 80 cores and 1.5TB RAM
+ 
+C1 CLUSTER (older nodes with interconnect=1g) 
+PHASE 1a   TOTAL = 118  FREE =   0  OFFLINE =   0  TYPE = Dell   R610    Intel Xeon  E5520,      8 cores,  31GB, 1g
+PHASE 1b   TOTAL =  46  FREE =   0  OFFLINE =   0  TYPE = Dell   R610    Intel Xeon  E5645,     12 cores,  94GB, 1g
+PHASE 2a   TOTAL =  84  FREE =  11  OFFLINE =   0  TYPE = Dell   R620    Intel Xeon  E5-2660    16 cores, 251GB, 1g
+PHASE 2c   TOTAL =  88  FREE =   0  OFFLINE =   0  TYPE = Dell   PEC6220 Intel Xeon  E5-2665,   16 cores,  62GB, 1g
+PHASE 3    TOTAL = 149  FREE = 142  OFFLINE =   1  TYPE = Sun    X2200   AMD Opteron 2356,       8 cores,  15GB, 1g
+PHASE 4    TOTAL = 280  FREE =  73  OFFLINE =   2  TYPE = IBM    DX340   Intel Xeon  E5410,      8 cores,  15GB, 1g
+PHASE 5c   TOTAL =  37  FREE =  35  OFFLINE =   1  TYPE = Dell   R510    Intel Xeon  E5460,      8 cores,  23GB, 1g
+PHASE 5d   TOTAL =  23  FREE =   0  OFFLINE =   0  TYPE = Dell   R520    Intel Xeon  E5-2450    12 cores,  46GB, 1g
+PHASE 6    TOTAL =  65  FREE =  63  OFFLINE =   0  TYPE = HP     DL165   AMD Opteron 6176,      24 cores,  46GB, 1g
+ 
+C2 CLUSTER (newer nodes with interconnect=FDR)
+PHASE 7a   TOTAL =  32  FREE =   0  OFFLINE =   1  TYPE = HP     SL230   Intel Xeon  E5-2665,   16 cores,  62GB, FDR, 10ge
+PHASE 7b   TOTAL =  12  FREE =   0  OFFLINE =   0  TYPE = HP     SL250s  Intel Xeon  E5-2665,   16 cores,  62GB, FDR, 10ge       
+PHASE 8a   TOTAL =  71  FREE =   0  OFFLINE =   1  TYPE = HP     SL250s  Intel Xeon  E5-2665,   16 cores,  62GB, FDR, 10ge, K20
+PHASE 8b   TOTAL =  57  FREE =  19  OFFLINE =   1  TYPE = HP     SL250s  Intel Xeon  E5-2665,   16 cores,  62GB, FDR, 10ge, K20
+PHASE 9    TOTAL =  72  FREE =  51  OFFLINE =   0  TYPE = HP     SL250s  Intel Xeon  E5-2665,   16 cores, 125GB, FDR, 10ge, K20
+PHASE 10   TOTAL =  80  FREE =  52  OFFLINE =   0  TYPE = HP     SL250s  Intel Xeon  E5-2670v2, 20 cores, 125GB, FDR, 10ge, K20
+PHASE 11a  TOTAL =  40  FREE =  23  OFFLINE =   0  TYPE = HP     SL250s  Intel Xeon  E5-2670v2, 20 cores, 125GB, FDR, 10ge, K40
+PHASE 11b  TOTAL =   3  FREE =   3  OFFLINE =   0  TYPE = HP     SL250s  Intel Xeon  E5-2670v2, 20 cores, 125GB, FDR, 10ge     
+PHASE 11c  TOTAL =  41  FREE =   1  OFFLINE =   0  TYPE = Dell   Various Intel Xeon  E5-2650v2, 16 cores, 250GB, FDR, 10ge     
+PHASE 12   TOTAL =  28  FREE =   1  OFFLINE =   0  TYPE = Lenovo MX360M5 Intel Xeon  E5-2680v3, 24 cores, 125GB, FDR, 10ge, K40
+PHASE 13   TOTAL =  24  FREE =  17  OFFLINE =   0  TYPE = Dell   C4130   Intel Xeon  E5-2680v3, 24 cores, 125GB, FDR, 10ge, K40
+PHASE 14   TOTAL =  12  FREE =   5  OFFLINE =   0  TYPE = HP     XL190r  Intel Xeon  E5-2680v3, 24 cores, 125GB, FDR, 10ge, K40
+PHASE 15   TOTAL =  32  FREE =  32  OFFLINE =   0  TYPE = Dell   C4130   Intel Xeon  E5-2680v3, 24 cores, 125GB, FDR, 10ge, K40
+PHASE 16   TOTAL =  40  FREE =   0  OFFLINE =   0  TYPE = Dell   C4130   Intel Xeon  E5-2680v4, 28 cores, 125GB, FDR, 10ge, P100
+PHASE 17   TOTAL =  20  FREE =   0  OFFLINE =   1  TYPE = Dell   C4130   Intel Xeon  E5-2680v4, 28 cores, 124GB, FDR, 10ge, P100
+ 
+C2 CLUSTER (newest nodes with interconnect=HDR except for phase19b,21,22) 
+PHASE 18a  TOTAL =   2  FREE =   0  OFFLINE =   0  TYPE = Dell   C4140   Intel Xeon  6148G,     40 cores, 372GB, HDR, 10ge, V100nv
+PHASE 18b  TOTAL =  65  FREE =   0  OFFLINE =   0  TYPE = Dell   R740    Intel Xeon  6148G,     40 cores, 372GB, HDR, 25ge, V100
+PHASE 18c  TOTAL =  10  FREE =   0  OFFLINE =   0  TYPE = Dell   R740    Intel Xeon  6148G,     40 cores, 748GB, HDR, 25ge, V100
+PHASE 19a  TOTAL =  28  FREE =   0  OFFLINE =   0  TYPE = Dell   R740    Intel Xeon  6248G,     40 cores, 372GB, HDR, 25ge, V100
+PHASE 19b  TOTAL =   7  FREE =   0  OFFLINE =   0  MUSC TYPE = HPE XL170 Intel Xeon  6252G,     48 cores, 372GB,      10ge
+PHASE 20   TOTAL =  22  FREE =   0  OFFLINE =   0  TYPE = Dell   R740    Intel Xeon  6238R,     56 cores, 372GB, HDR, 25ge, V100S
+ 
+DGX NODES 
+PHASE 24a  TOTAL =   2  FREE =   1  OFFLINE =   0  TYPE = NVIDIA DGXA100 AMD   EPYC  7742,      128 cores, 990GB, HDR, 25ge, A100
+ 
+SKYLIGHT CLUSTER (Mercury Consortium) 
+PHASE 25a  TOTAL =  22  FREE =   4  OFFLINE =   0  TYPE = ACT            Intel Xeon  E5-2640v4, 20 cores,  125GB,  1ge
+PHASE 25b  TOTAL =   3  FREE =   2  OFFLINE =   0  TYPE = ACT            Intel Xeon  E5-2680v4, 28 cores,  503GB,  1ge
+PHASE 25c  TOTAL =   6  FREE =   5  OFFLINE =   0  TYPE = ACT            Intel Xeon  E5-2640v4, 20 cores,   62GB,  1ge, GTX1080
+PHASE 25d  TOTAL =   2  FREE =   2  OFFLINE =   0  TYPE = ACT            Intel Xeon  E5-2640v4, 20 cores,  125GB,  1ge, P100
+PHASE 26a  TOTAL =  24  FREE =   2  OFFLINE =   0  TYPE = Dell R640      Intel Xeon  6230R,     52 cores,  754GB, 25ge
+PHASE 26b  TOTAL =   5  FREE =   0  OFFLINE =   0  TYPE = Dell R640      Intel Xeon  6230R,     52 cores, 1500GB, 25ge
+PHASE 26c  TOTAL =   6  FREE =   5  OFFLINE =   0  TYPE = Dell DSS840    Intel Xeon  6230R,     52 cores,  380GB, 25ge, RTX6000
+ 
+C2 CLUSTER nodes with A100 GPUs 
+PHASE 27   TOTAL =  34  FREE =   0  OFFLINE =   0  TYPE = Dell   R740    Intel Xeon  6258R,     56 cores, 372GB, HDR, 25ge, A100 
+PHASE 28   TOTAL =  26  FREE =   0  OFFLINE =   0  TYPE = Dell   R750    Intel Xeon  8358,      64 cores, 250GB, HDR, 25ge, A100
+PHASE 29   TOTAL =  40  FREE =   0  OFFLINE =   3  TYPE = Dell   R750    Intel Xeon  8358,      64 cores, 250GB, HDR, 25ge, A100
+ 
+NOTE: PBS resource requests must be LOWER CASE.  
+      Your job will land on the oldest phase that satisfies your PBS resource requests. 
+      Also run "checkqueuecfg" to find out the queue limits on number of running jobs permitted per user in each queue. 
+ 

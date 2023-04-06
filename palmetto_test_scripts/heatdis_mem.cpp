@@ -9,13 +9,14 @@
 #include <iostream>
 #include "heatdis.h"
 #include <assert.h>
+#include <unistd.h>
 
 /*
     This sample application is based on the heat distribution code
     originally developed within the FTI project: github.com/leobago/fti
 */
 
-static const unsigned int CKPT_FREQ = ITER_TIMES / 3;
+static const ssize_t PROC_SIZE = (1 << 30);
 
 void initData(int nbLines, int M, int rank, double *h) {
     int i, j;
@@ -75,7 +76,10 @@ double doWork(int numprocs, int rank, int M, int nbLines, double *g, double *h) 
 int main(int argc, char *argv[]) {
     std::string filename = argv[3];
     std::string strategy = argv[4];
-    int rank, nbProcs, nbLines, i, M, arg;
+    int FREQ_MOD = std::stoi(argv[5]);
+
+    static const unsigned int CKPT_FREQ = ITER_TIMES / FREQ_MOD;
+    int rank, N, nbLines, i, M, arg;
     double wtime, *h, *g, memSize, localerror, globalerror = 1;
 
     if (argc < 3) {
@@ -84,20 +88,21 @@ int main(int argc, char *argv[]) {
     }
 
     MPI_Init(&argc, &argv);
-    MPI_Comm_size(MPI_COMM_WORLD, &nbProcs);
+    MPI_Comm_size(MPI_COMM_WORLD, &N);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     if (sscanf(argv[1], "%d", &arg) != 1) {
         printf("Wrong memory size! See usage\n");
 	exit(3);
     }
+    MPI_Barrier(MPI_COMM_WORLD);
     if (VELOC_Init(MPI_COMM_WORLD, argv[2]) != VELOC_SUCCESS) {
 	printf("Error initializing VELOC! Aborting...\n");
 	exit(2);
     }
 
-    M = (int)sqrt((double)(arg * 1024.0 * 1024.0 * nbProcs) / (2 * sizeof(double))); // two matrices needed
-    nbLines = (M / nbProcs) + 3;
+    M = (int)sqrt((double)(arg * 1024.0 * 1024.0 * N) / (2 * sizeof(double))); // two matrices needed
+    nbLines = (M / N) + 3;
     h = (double *) malloc(sizeof(double *) * M * nbLines);
     g = (double *) malloc(sizeof(double *) * M * nbLines);
     initData(nbLines, M, rank, g);
@@ -114,55 +119,74 @@ int main(int argc, char *argv[]) {
     VELOC_Mem_protect(1, h, M * nbLines, sizeof(double));
     VELOC_Mem_protect(2, g, M * nbLines, sizeof(double));
 
-    wtime = MPI_Wtime();
-    int v = VELOC_Restart_test("heatdis", 0);
-    if (v > 0) {
-	printf("Previous checkpoint found at iteration %d, initiating restart...\n", v);
-	// v can be any version, independent of what VELOC_Restart_test is returning
-        if (VELOC_Restart("heatdis", v) != VELOC_SUCCESS) {
-            printf("Error restarting from checkpoint! Aborting...\n");
-            exit(2);
-        }
-    } else
-	i = 0;
+    i = 0;
     double ckpt_timer = 0;
     double work_timer = 0;
+    double interval = 0;
+    double last_ckpt_end = 0;
+    int ckpt_num = 0;
     double start = MPI_Wtime();
     while(i < ITER_TIMES) {
-	double work_start = MPI_Wtime();
-        localerror = doWork(nbProcs, rank, M, nbLines, g, h);
-	work_timer += (MPI_Wtime() - work_start);
+        double work_start = MPI_Wtime();
+        localerror = doWork(N, rank, M, nbLines, g, h);
+        work_timer += (MPI_Wtime() - work_start);
         if (((i % ITER_OUT) == 0) && (rank == 0))
-	    printf("Step : %d, error = %f\n", i, globalerror);
+            printf("Step : %d, error = %f\n", i, globalerror);
         if ((i % REDUCE) == 0)
-	    MPI_Allreduce(&localerror, &globalerror, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
+            MPI_Allreduce(&localerror, &globalerror, 1, MPI_DOUBLE, MPI_MAX, MPI_COMM_WORLD);
         if (globalerror < PRECISION)
-	    break;
-	i++;
-	if (i % CKPT_FREQ == 0){
-	    double ckpt_start = MPI_Wtime();
-	    if (VELOC_Checkpoint("heatdis", i) != VELOC_SUCCESS) {
-		printf("Error checkpointing! Aborting...\n");
+            break;
+        i++;
+        if (i % CKPT_FREQ == 0){
+            printf("starting checkpoint i = %d\n",i);
+            double ckpt_start = MPI_Wtime();
+            if (VELOC_Checkpoint("heatdis", i) != VELOC_SUCCESS) {
+                printf("Error checkpointing! Aborting...\n");
                 exit(2);
             }
-	    ckpt_timer += (MPI_Wtime() - ckpt_start);
-	}
-
+            ckpt_timer += (MPI_Wtime() - ckpt_start);
+            interval += (ckpt_start - last_ckpt_end);
+            ckpt_num++;
+            last_ckpt_end = MPI_Wtime();
+        }
     }
     assert(VELOC_Checkpoint_wait() == VELOC_SUCCESS);
+    interval /= ckpt_num;
     double ckpt_total = MPI_Wtime() - start;
     double avgTime = 0, maxTime = 0;
     double avgWork = 0, maxWork = 0;
+    double AVG_INT = 0;
     MPI_Reduce(&ckpt_timer, &avgTime, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
     MPI_Reduce(&ckpt_timer, &maxTime, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+    MPI_Reduce(&interval, &AVG_INT, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
     MPI_Reduce(&work_timer, &avgWork, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
     MPI_Reduce(&work_timer, &maxWork, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
     if (rank == 0){
-	std::ofstream outputfile;
+	    std::ofstream outputfile;
         outputfile.open(filename.c_str(), std::ofstream::out | std::ofstream::app);
-        outputfile << strategy << "," << nbProcs << "," << memSize << "," << avgTime/nbProcs <<
-            "," << maxTime << "," << avgWork/nbProcs << "," << maxWork << "," << ckpt_total << "," << (memSize / (1e9)) / avgTime << 
-	    "," << (memSize / (1e9)) / maxTime << "\n";
+        int NODES_TOTAL = std::stoi(std::getenv("NODES_TOTAL"));
+        int NODES_FREE = std::stoi(std::getenv("NODES_FREE"));
+        int NODES_OFFLINE = std::stoi(std::getenv("NODES_OFFLINE"));
+        std::string local_storage_dev = std::getenv("LOCAL_STORAGE_DEV");
+        int PROCS_PER_NODE = std::stoi(std::getenv("PPN"));
+        int NUM_FILES = std::stoi(std::getenv("NUM_FILES"));
+        AVG_INT /= ckpt_num;
+
+        outputfile.seekp(0, std::ios::end);  
+        if (outputfile.tellp() == 0) {    
+            outputfile << "STRATEGY,STORAGE DEV,N PROCS,PROCS PER NODE,N NODES,AGG SIZE,LOCAL SIZE,AVG CKPT TIME,MAX CKPT TIME," <<
+            "AVG CKPT THROUGHPUT,MAX CKPT THROUGHPUT,AVG WORK,MAX WORK,NUM ITERATIONS,CKPT FREQ,AVG CKPT INTERVAL,SYSTEM NODES," <<
+            "NODES IN USE,NODES OFFLINE" << std::endl;
+
+        }
+        outputfile << strategy << "," << local_storage_dev << "," << N << "," << PROCS_PER_NODE << "," << N/PROCS_PER_NODE << "," << NUM_FILES << "," <<
+        arg << "," << memSize << "," << avgTime/N << "," << maxTime << "," << ((double)arg / (double)PROC_SIZE) / (avgTime/N) << "," << 
+        ((double)arg / (double)PROC_SIZE) / maxTime << "," << avgWork/N << "," << maxWork << "," << 
+        ITER_TIMES << "," << CKPT_FREQ << "," << AVG_INT << ","  << 
+        NODES_TOTAL << "," << NODES_TOTAL - NODES_FREE - NODES_OFFLINE << "," << NODES_OFFLINE << "\n";
+    
+        
+        outputfile.close();
         outputfile.close();
     }
 

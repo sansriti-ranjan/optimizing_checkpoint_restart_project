@@ -82,9 +82,9 @@ int main(int argc, char *argv[]) {
     {
         std::ofstream outputfile;
         outputfile.open(filename.c_str(), std::ofstream::out | std::ofstream::app);
-        outputfile << strategy << ",local," << tol << "," << N << "," << total_size << "," << avgLocalTime/N <<
+        outputfile << strategy << "local" << tol << "," << N << "," << total_size << "," << avgLocalTime/N <<
             "," << maxLocalTime << "," << (total_size / PROC_SIZE) / avgLocalTime << "," << (total_size / PROC_SIZE) / maxLocalTime << "\n";
-        outputfile << strategy << ",total," << tol << "," << N << "," << total_size << "," << avgFlushTime/N << 
+        outputfile << strategy << "total" << tol << "," << N << "," << total_size << "," << avgFlushTime/N << 
             "," << maxFlushTime << "," << (total_size / PROC_SIZE) / maxFlushTime << "," << (total_size / PROC_SIZE) / maxFlushTime << "\n";
         outputfile.close();
     }    
