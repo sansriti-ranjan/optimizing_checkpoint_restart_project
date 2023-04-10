@@ -3,7 +3,7 @@
 #include <math.h>
 #include <sys/stat.h>
 #include <string>
-#include "/home/sansrir/VELOC/veloc_install/include/veloc.h"
+#include "/home/mikailg/VELOC/install/include/veloc.h"
 #include <mpi.h>
 #include <fstream>
 #include <iostream>
@@ -78,7 +78,8 @@ int main(int argc, char *argv[]) {
     std::string strategy = argv[4];
     int FREQ_MOD = std::stoi(argv[5]);
 
-    static const unsigned int CKPT_FREQ = ITER_TIMES / FREQ_MOD;
+    static const unsigned int CKPT_INT = ITER_TIMES / FREQ_MOD;
+    static const int CKPT_FREQ = ITER_TIMES / CKPT_INT;
     int rank, N, nbLines, i, M, arg;
     double wtime, *h, *g, memSize, localerror, globalerror = 1;
 
@@ -180,9 +181,9 @@ int main(int argc, char *argv[]) {
 
         }
         outputfile << strategy << "," << local_storage_dev << "," << N << "," << PROCS_PER_NODE << "," << N/PROCS_PER_NODE << "," << NUM_FILES << "," <<
-        arg << "," << memSize << "," << avgTime/N << "," << maxTime << "," << ((double)arg / (double)PROC_SIZE) / (avgTime/N) << "," << 
+        arg * N  << "," << memSize << "," << avgTime/N << "," << maxTime << "," << ((double)arg / (double)PROC_SIZE) / (avgTime/N) << "," << 
         ((double)arg / (double)PROC_SIZE) / maxTime << "," << avgWork/N << "," << maxWork << "," << 
-        ITER_TIMES << "," << CKPT_FREQ << "," << AVG_INT << ","  << 
+        ITER_TIMES << "," << CKPT_FREQ << "," << CKPT_INT << "," << AVG_INT << ","  << 
         NODES_TOTAL << "," << NODES_TOTAL - NODES_FREE - NODES_OFFLINE << "," << NODES_OFFLINE << "\n";
     
         
