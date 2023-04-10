@@ -1,15 +1,12 @@
 #!/bin/bash
-cd $HOME/ECE8650/final_proj/palmetto_test_scripts
-ls
-export LD_LIBRARY_PATH=/home/mikailg/VELOC/install/lib64:$LD_LIBRARY_PATH
-export PATH=/home/mikailg/VELOC/install/bin:$PATH
+cd $HOME/ECE8650/optimizing_checkpoint_restart_project/palmetto_test_scripts
 
 echo $HOME
 #SET TEST ID VARS
 TEST_ID=$1
 WORKING_DIR="$HOME/ECE8650/compress_dir/"
 PERSIS_DIR="/scratch/$USER/persis"
-LOG_PATH="$HOME/ECE8650/final_proj/logs/$TEST_ID-$PBS_JOBID-$NCPUS-$PPN-"`date '+%d-%m'`
+LOG_PATH="$HOME/ECE8650/optimizing_checkpoint_restart_project/logs/$TEST_ID-$PBS_JOBID-$NCPUS-$PPN-"`date '+%d-%m'`
 STATS="$TEST_ID-$PBS_JOBID-$NCPUS-$PPN-"`date '+%d-%m'`".txt"
 mkdir -p $WORKING_DIR
 mkdir -p $PERSIS_DIR
@@ -50,7 +47,7 @@ do
                 rm -f $device/veloc/heatdis*
                 rm -f $device/logs/*
                 rm -rf $TMPDIR/*
-                rm /dev/shm/*
+                rm /dev/shm/veloc-*
 
                 echo "starting heat distribution test with $nodes nodes ($procs procs), file = $STATS, strat = $strat, feq = $ckpt_freq, PPN = $PPN" >> /dev/stderr
                 mpirun -n ${procs} -npernode ${PPN} -x MPICH_MAX_THREAD_SAFETY=multiple ./heatdis_og 100 veloc.cfg $STATS $strat $ckpt_freq
