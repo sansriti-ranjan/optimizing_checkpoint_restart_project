@@ -146,8 +146,15 @@ int main(int argc, char *argv[]) {
 	close(fi);
         close(fo);
     }
+    std::ofstream outputfile;
+    outputfile.open("omp_thread_scalability.txt", std::ofstream::out | std::ofstream::app);
+    outputfile.seekp(0, std::ios::end);  
+    if (outputfile.tellp() == 0) {    
+        outputfile << "NUM THREADS,TOLERANCE,THROUGHPUT" << std::endl;
 
-	std::cout << "Aggregated Throughput = " << agg_throughput << std::endl;
+    }
+	outputfile << t_count << "," << tol << "," << agg_throughput << std::endl;
+    outputfile.close();
     return 0;
 }
 
