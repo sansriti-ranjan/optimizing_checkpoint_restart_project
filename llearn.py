@@ -13,9 +13,19 @@ import numpy as np
 
 
 class MLP(nn.Module):
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, inputs, num_layers, outputs):
+        super(MLP, self).__init__()
+        self.num_layers = num_layers
+        self.fc1 = nn.Linear(8192, 256)
+        self.fc2 = nn.Linear(256, 128)
+        self.fc3 = nn.Linear(128,64)
+        self.fc4 = nn.Linear(64,32)
+        self.fc5 = nn.Linear(32,10)
+        self.mlp = nn.MLP()
+    
+    def forward(self):
         
+
 
 def main():
 
