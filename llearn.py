@@ -13,7 +13,9 @@ import numpy as np
 
 
 class MLP(nn.Module):
-    
+    def __init__(self, name):
+        self.name = name
+        
 
 def main():
 
