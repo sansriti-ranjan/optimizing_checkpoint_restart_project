@@ -3,7 +3,7 @@
 #include <math.h>
 #include <sys/stat.h>
 #include <string>
-#include "/home/mikailg/VELOC/install/include/veloc.h"
+#include "/home/sansrir/VELOC/veloc_install/include/veloc.h"
 #include <mpi.h>
 #include <fstream>
 #include <iostream>

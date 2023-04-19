@@ -12,12 +12,11 @@ mkdir -p $WORKING_DIR
 mkdir -p $PERSIS_DIR
 mkdir -p $LOG_PATH
 mkdir -p $TMPDIR/veloc
-mkdir -p $TMPDIR/logs
 mkdir -p /dev/shm/veloc
 mkdir -p /dev/shm/logs
 
 #SET CONTROL VARIABLES
-declare -a NUM_NODES=(1)
+declare -a NUM_NODES=(1 8 16 32)
 declare -a CKPT_FREQS=(1 6 12 60)
 declare -a STORAGE_DEV=("/dev/shm" "$TMPDIR")
 
@@ -29,6 +28,7 @@ do
         for device in ${STORAGE_DEV[@]}
         do
             sed -i "s+scratch = .*+scratch = $device/veloc+" veloc.cfg
+            sed -i "s+persistent = .*+persistent= $PERSIS_DIR+" veloc.cfg
             export LOCAL_STORAGE_DEV=$device
             for nodes in ${NUM_NODES[@]}
             do
@@ -46,7 +46,7 @@ do
                 rm -rf $WORKING_DIR/*
                 rm -f $device/veloc/heatdis*
                 rm -f $device/logs/*
-                rm -rf $TMPDIR/*
+                rm -f $TMPDIR/veloc/*
                 rm /dev/shm/veloc-*
 
                 echo "starting heat distribution test with $nodes nodes ($procs procs), file = $STATS, strat = $strat, feq = $ckpt_freq, PPN = $PPN" >> /dev/stderr
@@ -54,7 +54,7 @@ do
                 du -h $PERSIS_DIR >> /dev/stderr
 
                 echo "done....zipping and moving log files..." >> /dev/stderr
-                mv $device/logs/* $WORKING_DIR
+                mv /dev/shm/logs/* $WORKING_DIR
                 date=`date '+%d-%m_%H-%M'`
                 log_filename="$TEST_ID-$strat-$NUM_FILES-$nodes-$PPN-$procs-$date.tgz"
                 tar -czf $log_filename $WORKING_DIR
@@ -70,7 +70,6 @@ rm -f $TMPDIR/logs/*
 rm -f dev/shm/veloc/*
 rm -f dev/shm/logs/*
 rm -d $TMPDIR/veloc
-rm -d $TMPDIR/logs
 rm -d /dev/shm/veloc
 rm -d /dev/shm/logs
 
