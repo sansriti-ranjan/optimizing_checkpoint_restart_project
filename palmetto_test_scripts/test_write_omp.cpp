@@ -114,43 +114,50 @@ int main(int argc, char *argv[]) {
 	    exit(-1);
     }
 
-    	double agg_throughput = 0;
-	#pragma omp parallel for num_threads(t_count) reduction(+:agg_throughput)
+    double agg_throughput = 0;
+    double agg_timer = 0;
+	#pragma omp parallel for num_threads(t_count) reduction(+:agg_throughput,agg_timer)
     for (int i = 0; i < t_count; i++) {
-	int t_id = omp_get_thread_num();
+	    int t_id = omp_get_thread_num();
         std::string fs = "/dev/shm/veloc/"+filename+std::to_string(t_id)+".dat";
         int fi = open(fs.c_str(), O_CREAT | O_RDONLY, 0644);
         if (fi == -1) {
 	        close(fi);
 	        exit(-1);
         }
-	std::string fd = "/scratch/mikailg/persis/"+filename+std::to_string(t_id)+".dat";
-	ssize_t fo_off = 0;
-	if(aggregated) {
-        	fd = "/scratch/mikailg/persis/"+filename+"-aggregated.dat";
-		fo_off = get_offset(t_id, rank_size);
-	}
-        int fo = open(fd.c_str(), O_CREAT | O_WRONLY, 0644);
-        if (fo == -1) {
-	        close(fo);
-	        exit(-1);
+        std::string fd = "/scratch/mikailg/persis/"+filename+std::to_string(t_id)+".dat";
+        ssize_t fo_off = 0;
+        if(aggregated) {
+                fd = "/scratch/mikailg/persis/"+filename+"-aggregated.dat";
+            fo_off = get_offset(t_id, rank_size);
         }
-        ssize_t thr_size = rank_size[t_id];
-        double start = omp_get_wtime();
-        int ret = file_transfer_loop(fi, 0, fo, fo_off, thr_size);
-        double timer = omp_get_wtime() - start;
-		double thruput = (double)(thr_size/(1e9)/timer);
-	std::unique_lock<std::mutex> cout_lck(output_mutex);
-        std::cout << "openMP thread " << t_id  << " wrote " << thr_size << " bytes at offset " << fo_off << " in " << timer << " [s], " << thruput << " GB/s" << std::endl;
-        agg_throughput += thruput;
-	close(fi);
-        close(fo);
+            int fo = open(fd.c_str(), O_CREAT | O_WRONLY, 0644);
+            if (fo == -1) {
+                close(fo);
+                exit(-1);
+            }
+            ssize_t thr_size = rank_size[t_id];
+            double start = omp_get_wtime();
+            int ret = file_transfer_loop(fi, 0, fo, fo_off, thr_size);
+            double timer = omp_get_wtime() - start;
+            double thruput = (double)(thr_size/(1e9)/timer);
+            std::unique_lock<std::mutex> cout_lck(output_mutex);
+            std::cout << "openMP thread " << t_id  << " wrote " << thr_size << " bytes at offset " << fo_off << " in " << timer << " [s], " << thruput << " GB/s" << std::endl;
+            agg_throughput += thruput;
+            close(fi);
+            close(fo);
     }
+
+    size_t total_size = 0;
+    for (int i = 0; i < t_count; i++) 
+        total_size += rank_size[i];
     std::ofstream outputfile;
     outputfile.open("omp_thread_scalability.txt", std::ofstream::out | std::ofstream::app);
     outputfile.seekp(0, std::ios::end);  
     if (outputfile.tellp() == 0) {    
-        outputfile << "NUM THREADS,TOLERANCE,THROUGHPUT" << std::endl;
+       outputfile << "OMP" << ",total," << tol << "," << t_count << "," << 1 << "," << t_count << "," << t_count << 
+	"," << total_size << "," << agg_throughput / t_count << "," << agg_throughput << "," << (total_size / (1 << 30)) / (avgFlushTime / N) << 
+	"," << (total_size / (1 << 30)) / maxFlushTime << "\n";
 
     }
 	outputfile << t_count << "," << tol << "," << agg_throughput << std::endl;
