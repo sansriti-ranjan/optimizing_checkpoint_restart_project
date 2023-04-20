@@ -1,2 +1,2 @@
 strategy,level,tolerance,nfiles,nodes,processes,writers,ckpt size,avg ckpts time [s],max ckpt time [s],avg BW [GB/s],min BW [GB/s]
-OMP,total,20,16,1,16,16,16890946922,2.08938,2.72159,8.41002,0.839927
+OMP,total,20,8,1,8,8,8589934599,1.66677,2.05422,5.24655,0.761071
