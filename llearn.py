@@ -10,6 +10,8 @@ import os
 from pathlib import Path
 import cv2 as cv
 import numpy as np
+import pandas as pd
+import seaborn as sns
 
 
 # class MLP(nn.Module):
@@ -28,9 +30,9 @@ import numpy as np
 def main():
    
     #read in the dataset
-    dataset = pd.read_csv("/home/mikailg/ECE8650/optimizing_checkpoint_restart_project/training_data/combined_training_data.csv")
+    dataset = pd.read_csv("/home/sansrir/ECE8650/optimizing_checkpoint_restart_project/training_data/combined_training_data.csv")
     sns.countplot(x = 'nfiles', data=dataset)
-    dataset['strategy'] = dataset['strategy'].astype(category)
+    dataset['strategy'] = dataset['strategy'].astype('category')
     print(dataset)
 
 
