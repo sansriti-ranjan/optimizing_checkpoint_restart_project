@@ -83,9 +83,11 @@ int main(int argc, char *argv[]) {
     const size_t MAX_BUFF_SIZE = 1 << 26;
     ssize_t rank_size[t_count] = {0}; 
     std::cout << "starting test with tol = " << dec_tol << ", and " << t_count << " threads..." << std::endl;
+
     #pragma omp parallel for num_threads(t_count)
     for (int i = 0; i < t_count; i++) {
         generate_sizes(t_count, dec_tol, rank_size);
+        std::cout << "sizes generated for thread " << i << std::endl;
         char *buff = new char[rank_size[omp_get_thread_num()]];
 	char *buff_ptr = buff;
         assert(buff != NULL);
@@ -115,8 +117,10 @@ int main(int argc, char *argv[]) {
     }
 
     double agg_throughput = 0;
+    double max_tp = 0;
+    double max_timer = 0;
     double agg_timer = 0;
-	#pragma omp parallel for num_threads(t_count) reduction(+:agg_throughput,agg_timer)
+	#pragma omp parallel for num_threads(t_count) reduction(+:agg_throughput,agg_timer) reduction(max:max_timer,max_tp)
     for (int i = 0; i < t_count; i++) {
 	    int t_id = omp_get_thread_num();
         std::string fs = "/dev/shm/veloc/"+filename+std::to_string(t_id)+".dat";
@@ -144,6 +148,9 @@ int main(int argc, char *argv[]) {
             std::unique_lock<std::mutex> cout_lck(output_mutex);
             std::cout << "openMP thread " << t_id  << " wrote " << thr_size << " bytes at offset " << fo_off << " in " << timer << " [s], " << thruput << " GB/s" << std::endl;
             agg_throughput += thruput;
+            agg_timer += timer;
+            max_timer = timer;
+            max_tp = thruput;
             close(fi);
             close(fo);
     }
@@ -155,12 +162,11 @@ int main(int argc, char *argv[]) {
     outputfile.open("omp_thread_scalability.txt", std::ofstream::out | std::ofstream::app);
     outputfile.seekp(0, std::ios::end);  
     if (outputfile.tellp() == 0) {    
-       outputfile << "OMP" << ",total," << tol << "," << t_count << "," << 1 << "," << t_count << "," << t_count << 
-	"," << total_size << "," << agg_throughput / t_count << "," << agg_throughput << "," << (total_size / (1 << 30)) / (avgFlushTime / N) << 
-	"," << (total_size / (1 << 30)) / maxFlushTime << "\n";
-
+        outputfile << "strategy,level,tolerance,nfiles,nodes,processes,writers,ckpt size,avg ckpts time [s],max ckpt time [s],avg BW [GB/s],min BW [GB/s]" << std::endl;
     }
-	outputfile << t_count << "," << tol << "," << agg_throughput << std::endl;
+    outputfile << "OMP" << ",total," << tol << "," << t_count << "," << 1 << "," << t_count << "," << t_count << 
+	"," << total_size << "," << agg_timer / t_count << "," << max_timer << "," << agg_throughput << 
+	"," << max_tp << "\n";
     outputfile.close();
     return 0;
 }
